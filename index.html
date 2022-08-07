@@ -220,8 +220,8 @@
 		var decimalValidator = /^-?\d{1,3}\.?\d{0,4}$/
 
 		var mapViewer = L.map('map-view').setView([0, 30], 2);
-		L.tileLayer('http://api.tiles.mapbox.com/v4/irstevenson.jbb14e3b/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiaXJzdGV2ZW5zb24iLCJhIjoiUjhrWGlfSSJ9.kLzcPCFhVYXcHQLl8OIAzA', {
-			attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery &copy; <a href="http://mapbox.com">Mapbox</a>',
+		L.tileLayer('https://api.tiles.mapbox.com/v4/irstevenson.jbb14e3b/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiaXJzdGV2ZW5zb24iLCJhIjoiUjhrWGlfSSJ9.kLzcPCFhVYXcHQLl8OIAzA', {
+			attribution: 'Map data &copy; <a href="https://www.openstreetmap.org">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery &copy; <a href="https://www.mapbox.com">Mapbox</a>',
 			maxZoom: 18
 		}).addTo(mapViewer);
 
